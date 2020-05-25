@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ASPNET_Core_MVC_SEO_Friendly_Template.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +27,11 @@ namespace ASPNET_Core_MVC_SEO_Friendly_Template
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
             services.AddRazorPages();
             services.AddRouting(options =>
             {
@@ -48,6 +54,7 @@ namespace ASPNET_Core_MVC_SEO_Friendly_Template
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseCookiePolicy();
 
             app.UseRouting();
 

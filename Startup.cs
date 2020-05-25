@@ -26,6 +26,10 @@ namespace ASPNET_Core_MVC_SEO_Friendly_Template
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddRouting(options =>
+            {
+                options.ConstraintMap["slugify"] = typeof(SlugifyParameterTransformer);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,7 +56,7 @@ namespace ASPNET_Core_MVC_SEO_Friendly_Template
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller:slugify=Home}/{action:slugify=Index}/{id?}");
             });
         }
     }

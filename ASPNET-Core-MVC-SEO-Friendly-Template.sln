@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET-Core-MVC-SEO-Friendly-Template", "ASPNET-Core-MVC-SEO-Friendly-Template.csproj", "{EEAE1F93-5FC0-422F-B957-B879DCB48503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEAE1F93-5FC0-422F-B957-B879DCB48503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAE1F93-5FC0-422F-B957-B879DCB48503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAE1F93-5FC0-422F-B957-B879DCB48503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAE1F93-5FC0-422F-B957-B879DCB48503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {493714EF-7C30-4FD9-AD3F-BF660CAA73B7}
+	EndGlobalSection
+EndGlobal

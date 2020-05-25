@@ -9,6 +9,7 @@
 * Use Bootstrap and jQuery CDNs
 * Bundle and minify custom CSS and Javascript files
 * Semi-dynamic [Sitemap](https://aspnet-core-mvc-seo-friendly-template.azurewebsites.net/sitemap) generator
+* GDPR Cookie Policy
 * PageSpeed Insights Mobile: [98 Average Rank Speed](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Faspnet-core-mvc-seo-friendly-template.azurewebsites.net%2F&tab=mobile)
 * PageSpeed Insights Desktop: [100 Average Rank Speed](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Faspnet-core-mvc-seo-friendly-template.azurewebsites.net%2F&tab=desktop)
 

@@ -6,7 +6,7 @@
 * Bootstrap 4.5.0
 * Use of dashes in URLs to seperate words (eg: https://aspnetcoreseotemplate.com/products/product-example)
 * Redirect 301 for all URLs that contain uppercase to lowercase (eg: /Products/Product-EXAMPLE to /products/product-example)
-* Use Bootstrap and jQuery CDNs
+* Use of Bootstrap and jQuery CDNs
 * Bundle and minify custom CSS and Javascript files
 * Semi-dynamic [Sitemap](https://aspnetcoreseotemplate.com/sitemap) generator
 * GDPR Cookie Policy

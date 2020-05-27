@@ -60,7 +60,7 @@ namespace ASPNETCoreSEOTemplate
 
             app.UseAuthorization();
 
-            app.UseRewriter(new RewriteOptions().Add(new RedirectLowerCaseRule()));
+            app.UseRewriter(new RewriteOptions().Add(new RedirectLowerCaseRule()).Add(new RedirectEndingSlashCaseRule()));
 
             app.UseStatusCodePages(async context =>
             {

@@ -62,6 +62,20 @@ namespace ASPNETCoreSEOTemplate
 
             app.UseRewriter(new RewriteOptions().Add(new RedirectLowerCaseRule()));
 
+            app.UseStatusCodePages(async context =>
+            {
+                context.HttpContext.Response.ContentType = "text/plain";
+
+                if (context.HttpContext.Response.StatusCode == 404)
+                {
+                    await context.HttpContext.Response.WriteAsync("404 Page Not Found");
+                }
+                else
+                {
+                    await context.HttpContext.Response.WriteAsync("Page Error, Status Code: " + context.HttpContext.Response.StatusCode);
+                }
+            });
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

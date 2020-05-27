@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ASPNET_Core_MVC_SEO_Friendly_Template.Models;
+using ASPNETCoreSEOTemplate.Models;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Controllers
+namespace ASPNETCoreSEOTemplate.Controllers
 {
     public class HomeController : Controller
     {

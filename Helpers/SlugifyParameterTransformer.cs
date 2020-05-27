@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Helpers
+namespace ASPNETCoreSEOTemplate.Helpers
 {
     public class SlugifyParameterTransformer : IOutboundParameterTransformer
     {

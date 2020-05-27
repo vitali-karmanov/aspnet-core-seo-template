@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ASPNET_Core_MVC_SEO_Friendly_Template</RootNamespace>
+    <RootNamespace>ASPNETCoreSEOTemplate</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 

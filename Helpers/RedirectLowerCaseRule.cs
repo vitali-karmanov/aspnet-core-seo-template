@@ -4,7 +4,7 @@ using Microsoft.Net.Http.Headers;
 using System.Linq;
 using System.Net;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Helpers
+namespace ASPNETCoreSEOTemplate.Helpers
 {
     public class RedirectLowerCaseRule : IRule
     {

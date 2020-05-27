@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SimpleMvcSitemap;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Controllers
+namespace ASPNETCoreSEOTemplate.Controllers
 {
     public class SitemapController : Controller
     {

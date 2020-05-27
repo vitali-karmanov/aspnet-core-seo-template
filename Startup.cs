@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ASPNET_Core_MVC_SEO_Friendly_Template.Helpers;
+using ASPNETCoreSEOTemplate.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template
+namespace ASPNETCoreSEOTemplate
 {
     public class Startup
     {

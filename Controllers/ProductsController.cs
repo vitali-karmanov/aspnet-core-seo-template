@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Controllers
+namespace ASPNETCoreSEOTemplate.Controllers
 {
     public class ProductsController : Controller
     {

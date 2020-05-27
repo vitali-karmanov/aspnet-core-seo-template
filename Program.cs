@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template
+namespace ASPNETCoreSEOTemplate
 {
     public class Program
     {

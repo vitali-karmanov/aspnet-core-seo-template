@@ -1,6 +1,6 @@
 using System;
 
-namespace ASPNET_Core_MVC_SEO_Friendly_Template.Models
+namespace ASPNETCoreSEOTemplate.Models
 {
     public class ErrorViewModel
     {

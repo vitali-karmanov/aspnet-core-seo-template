@@ -9,7 +9,7 @@
 * Custom title and meta description for each view 
 * Use of Bootstrap and jQuery CDNs
 * Bundle and minify custom CSS and Javascript files
-* Semi-dynamic [Sitemap](https://aspnetcoreseotemplate.com/sitemap) generator
+* Semi-dynamic [sitemap](https://aspnetcoreseotemplate.com/sitemap) generator
 * Includes [robots.txt](https://aspnetcoreseotemplate.com/robots.txt) file
 * GDPR Cookie Policy
 * PageSpeed Insights Mobile: [98 Average Rank Speed](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Faspnetcoreseotemplate.com%2F&tab=mobile)

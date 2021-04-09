@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ASPNETCoreSEOTemplate</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <UserSecretsId>ddf3c052-264f-410a-b042-c5631e5dfd5b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -52,6 +52,7 @@ namespace ASPNETCoreSEOTemplate
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -61,6 +62,12 @@ namespace ASPNETCoreSEOTemplate
             app.UseAuthorization();
 
             app.UseRewriter(new RewriteOptions().Add(new RedirectLowerCaseRule()).Add(new RedirectEndingSlashCaseRule()));
+
+            if (env.IsProduction())
+            {
+                app.UseRewriter(new RewriteOptions()
+                    .AddRedirectToWwwPermanent());
+            }
 
             app.UseStatusCodePages(async context =>
             {

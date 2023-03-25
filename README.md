@@ -2,8 +2,8 @@
 
 ## Features
 
-* .NET Core MVC 3.1
-* Bootstrap 4.5.0
+* .NET 6
+* Bootstrap 5.3.0
 * Use of dashes in URLs to seperate words (eg: https://aspnetcoreseotemplate.com/products/product-example)
 * Redirect 301 for all URLs that contain uppercase to lowercase (eg: /Products/Product-EXAMPLE to /products/product-example)
 * Redirect non www to www
